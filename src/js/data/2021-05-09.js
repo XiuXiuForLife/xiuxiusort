@@ -8,87 +8,71 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: false,
     sub: [
-      { name: "Books and CDs", key: "book" },
-      { name: "The Highly Responsive to Prayers", tooltip: "01 - Reiiden", key: "HRtP" },
-      { name: "The Story of Eastern Wonderland", tooltip: "02 - Fuumaroku", key: "SoEW" },
-      { name: "Phantasmagoria of Dim.Dream", tooltip: "03 - Yumejikuu", key: "PoDD" },
-      { name: "Lotus Land Story", tooltip: "04 - Gensoukyou", key: "LLS" },
-      { name: "Mystic Square", tooltip: "05 - Kaikidan", key: "MS" },
-      { name: "Embodiment of Scarlet Devil", tooltip: "06 - Koumakan", key: "EoSD" },
-      { name: "Perfect Cherry Blossom", tooltip: "07 - Youyoumu", key: "PCB" },
-      { name: "Immaterial and Missing Power", tooltip: "07.5 - Suimusou", key: "IaMP" },
-      { name: "Imperishable Night", tooltip: "08 - Eiyashou", key: "IN" },
-      { name: "Phantasmagoria of Flower View", tooltip: "09 - Kaeidzuka", key: "PoFV" },
-      { name: "Shoot the Bullet", tooltip: "09.5 - Bunkachou", key: "StB" },
-      { name: "Mountain of Faith", tooltip: "10 - Fuujinroku", key: "MoF" },
-      { name: "Scarlet Weather Rhapsody", tooltip: "10.5 - Hisouten", key: "SWR" },
-      { name: "Subterranean Animism", tooltip: "11 - Chireiden", key: "SA" },
-      { name: "Undefined Fantastic Object", tooltip: "12 - Seirensen", key: "UFO" },
-      { name: "Touhou Hisoutensoku", tooltip: "12.3 - Hisoutensoku", key: "soku" },
-      { name: "Double Spoiler", tooltip: "12.5 - Bunkachou", key: "DS" },
-      { name: "Great Fairy Wars", tooltip: "12.8 - Daisensou", key: "GFW" },
-      { name: "Ten Desires", tooltip: "13 - Shinreibyou", key: "TD" },
-      { name: "Hopeless Masquerade", tooltip: "13.5 - Shinkirou", key: "HM" },
-      { name: "Double Dealing Character", tooltip: "14 - Kishinjou", key: "DDC" },
-      { name: "Impossible Spell Card", tooltip: "14.3 - Amanojaku", key: "ISC" },
-      { name: "Urban Legend in Limbo", tooltip: "14.5 - Shinpiroku", key: "ULiL" },
-      { name: "Legacy of Lunatic Kingdom", tooltip: "15 - Kanjuden", key: "LoLK" },
-      { name: "Antinomy of Common Flowers", tooltip: "15.5 - Hyouibana", key: "AoCF" },
-      { name: "Hidden Star in Four Seasons", tooltip: "16 - Tenkuushou", key: "HSiFS" },
-      { name: "Violet Detector", tooltip: "16.5 - Hifuu Nightmare Diary", key: "VD" },
-      { name: "Wily Beast and Weakest Creature", tooltip: "17 - Kikeijuu", key: "WBaWC" },
-      { name: "Unconnected Marketeers", tooltip: "18 - Kouryuudou", key: "UM" },
+      { name: "Knife Play", key: "kp" },
+      { name: "A Promise", key: "ap" },
+      { name: "Fabulous Muscles", key: "fm" },
+      { name: "La Foret", key: "lf" },
+      { name: "The Air Force", key: "taf" },
+      { name: "Women As Lovers", key: "wal" },
+      { name: "Dear God, I Hate Myself", key: "dgihm" },
+      { name: "Always", key: "a" },
+      { name: "Angel Guts: Red Classroom", key: "agrc" },
+      { name: "Plays The Music Of Twin Peaks", key: "tp" },
+      { name: "Forget", key: "f" },
+      { name: "Girl With Basket Of Fruit", key: "gwbof" },
+      { name: "OH NO", key: "on" },
+      { name: "Singles", key: "7" },
     ]
   },
   {
-    name: "Filter by Stage Enemy Appearances",
+    name: "DONT USE THIS",
     key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    tooltip: "DONT USE THIS",
     checked: false,
     sub: [ { name: "Stage 1", key: "st1" }, { name: "Stage 2", key: "st2" }, { name: "Stage 3", key: "st3" }, { name: "Stage 4", key: "st4" }, { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" }, { name: "Stage 6/Final", key: "st6" }, { name: "Stage EX/Phantasm", key: "ex" }
     ]
   },
   {
-    name: "Remove PC-98 Duplicates",
+    name: "DONT USE THIS",
     key: "pc98",
-    tooltip: "Check this to remove PC-98 characters with a Windows counterpart."
+    tooltip: "DONT USE THIS"
   },
   {
-    name: "Remove Non-Girls",
+    name: "DONT USE THIS",
     key: "notgirl",
     tooltip: "Check this to remove all non-female characters."
   },
   {
-    name: "Remove Nameless Characters",
+    name: "DONT USE THIS",
     key: "nameless",
-    tooltip: "Check this to remove all characters without canonical names.",
+    tooltip: "DONT USE THIS",
     checked: false
   }
 ];
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
-    img: "c5DqpgX.png",
+    name: "Don Diasco",
+    img: "https://f4.bcbits.com/img/a0334737026_16.jpg",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      series: [ "kp" ],
+      stage: ["ex"]
     }
   },
   {
-    name: "Kirisame Marisa",
-    img: "tJnkSzK.png",
+    name: "I Broke Up (SJ)",
+    img: "https://f4.bcbits.com/img/a0334737026_16.jpg",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      series: [ "kp" ],
+      stage: ["ex"]
     }
   },
   {
-    name: "Rumia",
-    img: "0YT7QlS.png",
+    name: "",
+    img: "",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
+      series: [ "" ],
+      stage: ["ex"]
     }
   },
   {
